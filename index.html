@@ -11,10 +11,21 @@ layout: default
 			      </a>
     			</h3>
 
-    			<span class="post-date">{{ post.date | date_to_string }}</span>    			
-  				<p>
-	  				{{ post.description }}	
-  				</p>
+          
+          <p class="post-meta">
+            {% if (post.categories.size > 0 %}
+            <span class="categories">
+            {{ post.categories | array_to_sentence_string }}
+            </span> |
+            {% endif %}
+            <span class="post-date">
+            {{ post.date | date: "%Y-%-m-%-d" }} 
+            </span>
+          </p>          
+                    
+          <p>
+            {{ post.excerpt }}  
+          </p>
   				<p>
   					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
   						Read More

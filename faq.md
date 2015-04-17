@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Help / FAQ
+title: FAQ
 ---
 
-What is harmony?
-: Harmony is a free jekyll theme, for bloggers who love jekyll. Designed and build by [Gayan Virajith](http://gayanvirajith.github.io) & [Maheshika Lakmali](http://maheshikalakmali.github.io). 
+博客主题是什么？
+: 博客主题是 Harmony，一个免费的 jekyll 主题，作者是 [Gayan Virajith](http://gayanvirajith.github.io) & [Maheshika Lakmali](http://maheshikalakmali.github.io)。
 
-Why are you doing this?
-: For experience! Free resources are always good way to learn what you love, also help us to produce good digital work and it might end up being useful to someone.
-
-Well, still have something in your mind?
-: Please drop a line to [gayanvirajith@gmail.com](gayanvirajith@gmail.com) or an [issue](https://github.com/gayanvirajith/harmony/issues/new) on Github, I am glad to response.
+对这个博客有什么想法？
+: 请到GitHub创建一个 [issue](https://github.com/Rivsen/rivsen.github.io/issues/new)。
 

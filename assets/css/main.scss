@@ -23,6 +23,13 @@
 
 -------------------------------- */
 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(/assets/css/mono.ttf) format('truetype');
+}
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -137,6 +144,11 @@ img {
   height: auto;
 }
 
+.disclaimer img {
+    display: inline;
+    vertical-align: middle;
+}
+
 
 hr {
   margin-top: 20px;
@@ -146,8 +158,11 @@ hr {
   height: 0;
 }
 
-strong { font-weight: 600; }
+/* bold text */
+strong, b { font-weight: 600; }
 
+/* italic */
+em, i { font-style: italic; }
 /* --------------------------------
 
  Theme base
@@ -630,15 +645,14 @@ div.post {
     border-bottom: none;
   }
 }
-span.post-date {
+p.post-meta {
   line-height: 1.6;
   letter-spacing: 2px;
-  text-transform: uppercase;
   @include font-size(12px);
   overflow: hidden;
   display: block;
   padding: 1em 0;
-
+  color: #7A7A7A;
   @include MQ(M) {
     @include font-size(16px);
   }

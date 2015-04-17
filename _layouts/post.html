@@ -6,7 +6,21 @@ layout: default
 	
 	<div class="post">
 		<h1>{{ page.title }}</h1>
-		<span class="post-date">{{ page.date | date_to_string }}</span>
+		<p class="post-meta">
+      <span class="post-date">
+        {% if page.author %}{% if page.author.link %}<a href="{{ page.author.link }}">{% endif %}{{ page.author }}{% else %}<a href="{{ site.url }}">{{ site.harmony.author.name }}{% endif %}</a>
+	    </span> |
+
+			{% if page.categories.size > 0 %}
+      <span class="categories">
+      {{ page.categories | array_to_sentence_string }}
+      </span> |
+	    {% endif %}
+
+	    <span class="post-date">
+    	{{ page.date | date: "%Y-%-m-%-d" }} 
+	    </span>
+		</p>		
 		<div class="post">
 			{{ content }}
 		</div>
@@ -44,5 +58,24 @@ layout: default
 			{% endif %}
 		</div>
 	</div>
+
+  <div class="post-disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'rivsen-github';
+    var disqus_identifier = '{{ page.disqus.id|default('rivsen-github') }}';
+    var disqus_title = '{{ page.title|default('Rivsen \'s Blog') }}';
+    var disqus_url = '{{ page.url | prepend: site.baseurl | prepend: site.url }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
 </div>
  

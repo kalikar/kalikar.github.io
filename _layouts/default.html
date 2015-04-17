@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
         <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
         <link rel="canonical" 
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -48,9 +48,6 @@
         <script type="text/javascript">
           /* To avoid render blocking css */
           var cb = function() {
-            var l = document.createElement('link'); l.rel = 'stylesheet';
-            l.href = 'http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
-            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
           };
           var raf = requestAnimationFrame || mozRequestAnimationFrame ||
               webkitRequestAnimationFrame || msRequestAnimationFrame;
@@ -58,9 +55,7 @@
           else window.addEventListener('load', cb);
         </script>
         <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- When no internet load JQuery from local -->
-        <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/jquery.min.js"><\/script>')</script>
+        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
         <!-- Site js -->
         <script src="{{ site.baseurl }}/assets/js/all.js"></script>
         <!-- Google analytics  -->
