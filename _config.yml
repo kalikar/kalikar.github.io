@@ -1,0 +1,57 @@
+# Harmony Jekyll theme general configurations 
+
+# Base URL
+baseurl: /harmony
+
+# Site live URL
+url: http://gayan.me
+
+# Localhost 
+# url: http://127.0.0.1:4000  
+
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: kalikar's Blog
+  # Little description about your site
+  description: 这里是我的博客
+  meta_description: 欢迎大家
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: kalikar
+    email: kalikarzhan@gmail.com
+    url: http://kalikar.github.io
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Profile links, leave blank to ignore
+  social: 
+    github: kalikar
+    twitter: 
+    facebook: 
+    gplus: +kalikar
+    dribble: 
+    pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: true
+
+# Conversion / Build settings 
+markdown:    kramdown
+highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
+
+# Permalinks
+permalink:        pretty
+
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
