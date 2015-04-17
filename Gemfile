@@ -1,5 +1,4 @@
-require 'json'
-require 'open-uri'
+source 'https://rubygems.org'
 
 gem 'rake' 
 

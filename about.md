@@ -4,14 +4,24 @@ title: About me
 permalink: /about/
 ---
 
-Hi,我是kalikar.
+Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
+Graduated from the University College Dublin (National University of Ireland). 
 
-### 联系我
+I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
+Prefer to serve with Php and Ruby based stacks and also love to work 
+on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
 
-Find me on [Google+][google] / [Github][github] 
+### Contact me
+
+Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
+[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
 
 
-
-[github]: https://github.com/kalikar
-[google]: https://plus.google.com/+kalikarzhan
-
+[tf]: http://template-factory.nl
+[m]: http://mearch.com
+[pw]: http://processwire.com
+[pwf]: http://processwire.com/talk
+[jekyll]: http://jekyllrb.com
+[github]: https://github.com/gayanvirajith
+[google]: https://plus.google.com/+GayanVirajith
+[twitter]: https://twitter.com/gayanvirajith

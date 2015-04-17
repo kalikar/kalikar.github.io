@@ -11,26 +11,26 @@ url: http://gayan.me
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: kalikar's Blog
+  name: Harmony
   # Little description about your site
-  description: 这里是我的博客
-  meta_description: 欢迎大家
+  description: Harmony is free responsive jekyll theme.
+  meta_description: Harmony is free responsive jekyll theme. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: kalikar
-    email: kalikarzhan@gmail.com
-    url: http://kalikar.github.io
+    name: Gayan Virajith
+    email: gayanvirajith@gmail.com
+    url: http://gayanvirajith.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
   # Profile links, leave blank to ignore
   social: 
-    github: kalikar
-    twitter: 
-    facebook: 
-    gplus: +kalikar
-    dribble: 
+    github: gayanvirajith
+    twitter: gayanvirajith
+    facebook: gayanvirajith
+    gplus: +GayanVirajith
+    dribble: gayan
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
