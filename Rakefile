@@ -29,7 +29,7 @@ task :post do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  filename = File.join(CONFIG['posts'], "#{date}-#{title}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -39,11 +39,11 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts "date: \"#{datetime}\""
+    post.puts "date:  #{datetime}"
     post.puts "description: "
-    post.puts "permalink: post\/\"#{title.gsub(/-/,' ')}\""
+    post.puts "permalink: post\/#{title}"
     post.puts "disqus:"
-    post.puts "   id: \"#{title}\""
+    post.puts "   id: #{title}"
     post.puts "categories:"
     post.puts "- blog"
     post.puts "---"
