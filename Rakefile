@@ -2,7 +2,7 @@ require 'rake'
 
 SOURCE = '.'
 CONFIG = {
-	'posts' => File.join(SOURCE, "_posts"),
+	'posts' => File.join(SOURCE, "_posts/php"),
 	'post_ext' => "markdown"
 }
 desc 'Preview the site with Jekyll'
