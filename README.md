@@ -1,3 +1,3 @@
-my blog
+kalikar's blog
 kalikar.github.io
 
