@@ -6,7 +6,7 @@ name: zhan
 description: zhan | Stop talking, start doing.
 author: kalikar
 email: kalikarzhan@gmai.com
-duoshuo: kalikarzhan
+disqus: kalikarzhan
 hub: zhan
 safe: true
 paginate: 100
