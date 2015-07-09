@@ -18,7 +18,7 @@ body{font-size:14px;word-spacing:1px;
 margin-right:auto;
         font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#2C3E50;}
 *{border:none;outline:none;}
-a{color:#dd0000;text-decoration:none;}
+a{color:#000000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;margin:.5em 0;}
@@ -54,7 +54,7 @@ td, th { padding:5px 10px; border:1px solid #886; background:#efefef; }
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;padding: 0em 0em;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+nav a:hover{background-color:#000000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
 .post ul{padding:.5em 0em;}
 .post .listing2{padding:.5em 0em;border-style:none;}
@@ -132,7 +132,7 @@ text-decoration: none;
 
 .paginator .current-page {
 color: white;
-background: #ff0000;
+background: #000000;
 }
 
 .paginator a:hover{
