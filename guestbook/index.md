@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 留言
-comments: yes
+comments: true
 thread: 616
 ---
 
