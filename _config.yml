@@ -5,8 +5,8 @@ highlighter: pygments
 name: zhan
 description: zhan | Stop talking, start doing.
 author: kalikar
-email: kalikarzhan@gmail.com
-disqus: kalikarzhan
+email: kalikar@aliyun.com
+disqus: kalikar
 hub: zhan
 safe: true
 paginate: 100
