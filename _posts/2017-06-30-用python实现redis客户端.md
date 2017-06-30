@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "python模拟redis客户端"
+title: "用python语言实现redis客户端"
 date:  2017-06-30 10:23:13
 description: python
 permalink: post/zhan
@@ -10,7 +10,7 @@ categories:
 - python redis 
 ---
 
-为了学习python，找了一个小功能当试手。这是一个用python模拟redis客户端的功能，目前只支持set,get方法。
+为了学习python，找了一个小功能当试手。这是一个用python实现redis客户端的功能，目前只支持set,get方法。
 
 <pre><code>
 import socket
