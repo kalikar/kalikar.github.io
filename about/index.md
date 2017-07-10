@@ -4,11 +4,11 @@ layout: page
 comments: no
 ---
 
-###个人说明
+### 个人说明
 
 * zhan
 
-###欢迎交流
+### 欢迎
 
 * 网站：[{{ site.name }}]({{ site.url }})
 * 邮箱：[{{ site.email }}](mailto:{{ site.email }})
