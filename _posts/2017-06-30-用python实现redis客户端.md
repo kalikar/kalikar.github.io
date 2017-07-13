@@ -5,7 +5,7 @@ date:  2017-06-30 10:23:13
 description: python
 permalink: post/python_redis_client
 disqus:
-   id: zhan
+   id: kalikar
 categories:
 - python redis client
 ---
